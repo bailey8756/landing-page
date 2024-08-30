@@ -58,7 +58,6 @@ body {
     margin: 0;
 }
 
-
 #hero-secondary-text {
     display: flex;
     flex-wrap: wrap;
@@ -124,4 +123,27 @@ body {
     color: #5e5e5e;
     width: 150px;
     text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding-block: 100px;
+    padding-inline: 300px;
+}
+
+#quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+}
+
+#author {
+    text-align: end;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 0;
+    margin: 0;
 }
