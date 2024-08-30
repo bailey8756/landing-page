@@ -21,3 +21,62 @@ body {
     text-decoration: none;
     padding: 10px;
 }
+
+.hero {
+    display: flex;
+    padding: 100px;
+    flex: 1;
+    align-items: stretch;
+    background-color: #1F2937;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 0.5;
+    flex-basis: 50%;
+    padding: 8px;
+}
+
+#image-placeholder {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 0.5;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+}
+
+#hero-main-text {
+    display: flex;
+    flex-wrap: wrap;
+    color: #F9FAF8;
+    font-weight: 900;
+    font-size: 48px;
+    padding: 8px;
+    margin: 0;
+}
+
+
+#hero-secondary-text {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+    padding: 8px;
+}
+
+#hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 30px;
+    width: 120px;
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    margin: 8px;
+    font-size: 18px;
+}
