@@ -185,3 +185,15 @@ body {
     margin: 0;
     font-weight: 700;
 }
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    margin: 20px;
+    color: #E5E7EB;
+}
